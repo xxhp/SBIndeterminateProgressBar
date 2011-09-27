@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4690DD014323BA200191889 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4690DCF14323BA200191889 /* UIKit.framework */; };
+		F4690DD214323BA200191889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4690DD114323BA200191889 /* Foundation.framework */; };
+		F4690DD414323BA200191889 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4690DD314323BA200191889 /* CoreGraphics.framework */; };
+		F4690DDA14323BA200191889 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4690DD814323BA200191889 /* InfoPlist.strings */; };
+		F4690DDC14323BA200191889 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4690DDB14323BA200191889 /* main.m */; };
+		F4690DE014323BA200191889 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4690DDF14323BA200191889 /* SBAppDelegate.m */; };
+		F4690DE314323BA200191889 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4690DE214323BA200191889 /* SBViewController.m */; };
+		F4690DE614323BA200191889 /* SBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4690DE414323BA200191889 /* SBViewController.xib */; };
+		F4F324B614323CA700E2CAA8 /* SBIndeterminateProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F324B514323CA700E2CAA8 /* SBIndeterminateProgressBar.m */; };
+		F4F324B91432411000E2CAA8 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F324B81432411000E2CAA8 /* bar.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4690DCB14323BA200191889 /* SBIndeterminateProgressBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBIndeterminateProgressBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4690DCF14323BA200191889 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F4690DD114323BA200191889 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4690DD314323BA200191889 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4690DD714323BA200191889 /* SBIndeterminateProgressBarDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBIndeterminateProgressBarDemo-Info.plist"; sourceTree = "<group>"; };
+		F4690DD914323BA200191889 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4690DDB14323BA200191889 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4690DDD14323BA200191889 /* SBIndeterminateProgressBarDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBIndeterminateProgressBarDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F4690DDE14323BA200191889 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		F4690DDF14323BA200191889 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		F4690DE114323BA200191889 /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		F4690DE214323BA200191889 /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+		F4690DE514323BA200191889 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SBViewController.xib; sourceTree = "<group>"; };
+		F4F324B414323CA700E2CAA8 /* SBIndeterminateProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBIndeterminateProgressBar.h; path = ../../SBIndeterminateProgressBar.h; sourceTree = "<group>"; };
+		F4F324B514323CA700E2CAA8 /* SBIndeterminateProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBIndeterminateProgressBar.m; path = ../../SBIndeterminateProgressBar.m; sourceTree = "<group>"; };
+		F4F324B81432411000E2CAA8 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bar.png; path = ../../bar.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4690DC814323BA200191889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4690DD014323BA200191889 /* UIKit.framework in Frameworks */,
+				F4690DD214323BA200191889 /* Foundation.framework in Frameworks */,
+				F4690DD414323BA200191889 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4690DC014323BA200191889 = {
+			isa = PBXGroup;
+			children = (
+				F4690DD514323BA200191889 /* SBIndeterminateProgressBarDemo */,
+				F4690DCE14323BA200191889 /* Frameworks */,
+				F4690DCC14323BA200191889 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4690DCC14323BA200191889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4690DCB14323BA200191889 /* SBIndeterminateProgressBarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4690DCE14323BA200191889 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4690DCF14323BA200191889 /* UIKit.framework */,
+				F4690DD114323BA200191889 /* Foundation.framework */,
+				F4690DD314323BA200191889 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4690DD514323BA200191889 /* SBIndeterminateProgressBarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F4F324B81432411000E2CAA8 /* bar.png */,
+				F4F324B414323CA700E2CAA8 /* SBIndeterminateProgressBar.h */,
+				F4F324B514323CA700E2CAA8 /* SBIndeterminateProgressBar.m */,
+				F4690DDE14323BA200191889 /* SBAppDelegate.h */,
+				F4690DDF14323BA200191889 /* SBAppDelegate.m */,
+				F4690DE114323BA200191889 /* SBViewController.h */,
+				F4690DE214323BA200191889 /* SBViewController.m */,
+				F4690DE414323BA200191889 /* SBViewController.xib */,
+				F4690DD614323BA200191889 /* Supporting Files */,
+			);
+			path = SBIndeterminateProgressBarDemo;
+			sourceTree = "<group>";
+		};
+		F4690DD614323BA200191889 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4690DD714323BA200191889 /* SBIndeterminateProgressBarDemo-Info.plist */,
+				F4690DD814323BA200191889 /* InfoPlist.strings */,
+				F4690DDB14323BA200191889 /* main.m */,
+				F4690DDD14323BA200191889 /* SBIndeterminateProgressBarDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4690DCA14323BA200191889 /* SBIndeterminateProgressBarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4690DE914323BA200191889 /* Build configuration list for PBXNativeTarget "SBIndeterminateProgressBarDemo" */;
+			buildPhases = (
+				F4690DC714323BA200191889 /* Sources */,
+				F4690DC814323BA200191889 /* Frameworks */,
+				F4690DC914323BA200191889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBIndeterminateProgressBarDemo;
+			productName = SBIndeterminateProgressBarDemo;
+			productReference = F4690DCB14323BA200191889 /* SBIndeterminateProgressBarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4690DC214323BA200191889 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Doubleint;
+			};
+			buildConfigurationList = F4690DC514323BA200191889 /* Build configuration list for PBXProject "SBIndeterminateProgressBarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4690DC014323BA200191889;
+			productRefGroup = F4690DCC14323BA200191889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4690DCA14323BA200191889 /* SBIndeterminateProgressBarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4690DC914323BA200191889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4690DDA14323BA200191889 /* InfoPlist.strings in Resources */,
+				F4690DE614323BA200191889 /* SBViewController.xib in Resources */,
+				F4F324B91432411000E2CAA8 /* bar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4690DC714323BA200191889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4690DDC14323BA200191889 /* main.m in Sources */,
+				F4690DE014323BA200191889 /* SBAppDelegate.m in Sources */,
+				F4690DE314323BA200191889 /* SBViewController.m in Sources */,
+				F4F324B614323CA700E2CAA8 /* SBIndeterminateProgressBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4690DD814323BA200191889 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4690DD914323BA200191889 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4690DE414323BA200191889 /* SBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4690DE514323BA200191889 /* en */,
+			);
+			name = SBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4690DE714323BA200191889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4690DE814323BA200191889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4690DEA14323BA200191889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBIndeterminateProgressBarDemo/SBIndeterminateProgressBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "SBIndeterminateProgressBarDemo/SBIndeterminateProgressBarDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4690DEB14323BA200191889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBIndeterminateProgressBarDemo/SBIndeterminateProgressBarDemo-Prefix.pch";
+				INFOPLIST_FILE = "SBIndeterminateProgressBarDemo/SBIndeterminateProgressBarDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4690DC514323BA200191889 /* Build configuration list for PBXProject "SBIndeterminateProgressBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4690DE714323BA200191889 /* Debug */,
+				F4690DE814323BA200191889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4690DE914323BA200191889 /* Build configuration list for PBXNativeTarget "SBIndeterminateProgressBarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4690DEA14323BA200191889 /* Debug */,
+				F4690DEB14323BA200191889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4690DC214323BA200191889 /* Project object */;
+}

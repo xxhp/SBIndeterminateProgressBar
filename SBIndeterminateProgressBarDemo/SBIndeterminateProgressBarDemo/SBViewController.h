@@ -15,5 +15,5 @@
 @property (nonatomic, retain) IBOutlet SBIndeterminateProgressBar *bar1;
 @property (nonatomic, retain) IBOutlet SBIndeterminateProgressBar *bar2;
 
-- (IBAction)toggle:(id)sender;
+- (IBAction)increase:(id)sender;
 @end

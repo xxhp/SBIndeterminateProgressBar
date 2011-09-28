@@ -93,9 +93,9 @@
 #pragma mark - Private
 
 - (void)update:(NSTimer *)timer {
-	_offset+=1.;
+	_offset-=1.;
 	
-	if ([UIImage imageNamed:@"bar"].size.width == _offset)
+	if (-[UIImage imageNamed:@"bar"].size.width == _offset)
 		_offset = 0.;
 	
 	[self setNeedsDisplay];

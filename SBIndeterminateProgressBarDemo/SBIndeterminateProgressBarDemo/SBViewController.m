@@ -25,20 +25,25 @@
 	// Bar 2
 	[bar2 setCornerRadius:5.];
 	[bar2 setProgress:0.];
+	
+	[NSTimer scheduledTimerWithTimeInterval:.01 target:self selector:@selector(increaseTimer:) userInfo:nil repeats:YES];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (IBAction)toggle:(id)sender {
-	if (bar1.progress != 1.) {
-		[bar1 setProgress:bar1.progress+.2 animated:YES];
+- (IBAction)increase:(id)sender {
+	if (bar2.progress != 1.) {
 		[bar2 setProgress:bar2.progress+.2 animated:YES];
 	} else {
 		[bar1 setProgress:0. animated:YES];
 		[bar2 setProgress:0. animated:YES];
 	}
+}
+
+- (void)increaseTimer:(NSTimer *)timer {
+	[bar1 setProgress:(bar1.progress+.0005)];
 }
 
 @end
